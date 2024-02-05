@@ -7,8 +7,11 @@ body {
     justify-content: center;
 }
 
-main {
-    display: flex;
+
+.main img {
+    max-width: 400px;
+    padding-right: 125px;
+
 }
 
 .header,
@@ -47,7 +50,9 @@ ul {
 
 }
 .hero {
-       margin: 50px 175px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
 }
 
 .hero button {
@@ -93,6 +98,8 @@ ul {
 .cards img {
     border-radius: 8px;
     border: solid #3882F6 2px;
+    max-width: 250px;
+    padding: 0;
 }
 
 .third {
